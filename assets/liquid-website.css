@@ -1,3 +1,24 @@
+.Main-title {
+  font-size: 48px;
+  font-weight: 900;
+
+}
+
+.Feature-title {
+  font-size: 38px;
+  font-weight: bold;
+  color: #003354;
+  letter-spacing: -1.5px;
+  font-kerning: normal;
+}
+
+.Feature-description {
+  font-size: 18px;
+  font-weight: 300;
+  color: #003354;
+  list-style-type: none;
+}
+
 .signup-footer {
   width: 100%;
   position: fixed;
@@ -39,7 +60,13 @@
   height: 1px;
 }
 
+.Number-icon {
+  padding-top: 80px;
+}
 
+.Product-image {
+  padding-top: 30px;
+}
 
 /*Navbar collapsed*/
 
