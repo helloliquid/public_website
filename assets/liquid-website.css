@@ -4,7 +4,7 @@
 
 }
 
-.Feature-title {
+.col-lg-6 h4 {
   font-size: 38px;
   font-weight: bold;
   color: #003354;
@@ -12,7 +12,7 @@
   font-kerning: normal;
 }
 
-.Feature-description {
+.col-lg-6 li {
   font-size: 18px;
   font-weight: 300;
   color: #003354;
