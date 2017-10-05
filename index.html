@@ -8,15 +8,16 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <!-- <link rel="icon" href="../../favicon.ico"> -->
 
     <title>Liquid - Up front banking</title>
 
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap core CSS and jQuery -->
     <link href="assets/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="assets/jquery/jquery-3.2.1.min.js"></script>
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
 
     <!-- Custom styles for this template -->
     <link href="assets/jumbotron-narrow.css" rel="stylesheet">
@@ -27,15 +28,23 @@
     <!-- Including San Francisco font -->
     <link href="assets/sanfrancisco-font.css" rel="stylesheet">
 
+    <!-- Waypoints library -->
+    <script src="assets/waypoints/lib/jquery.waypoints.js"></script>
+
+
+
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <!-- <script src="assets/js/ie-emulation-modes-warning.js"></script> -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+
+
   </head>
 
   <body>
@@ -59,7 +68,7 @@
 
           <img class="visible-xs-inline" src="assets/img/Img 1.png" class="img-responsive Product-image" ></>
           <img src="/Users/cesarisern/Documents/GitHub/pblic_website/assets/img/N. 1.png" class="img-responsive Number-icon" ></>
-          <h4>Stay connected to your cashflow</h4>
+          <h4 id="waypointtest" class="waypoint">Stay connected to your cashflow</h4>
           <li>- Securely connects to your bank account.</li>
           <li>- Set up in 2 minutes.</li>
 
@@ -89,6 +98,7 @@
         </div>
         <div class="col-lg-6 Desktop-product-image-block">
           <img class="visible-sm-inline visible-md-inline visible-lg-inline" src="assets/img/Img 1.png" class="img-responsive Product-image" ></>
+          
         </div>
       </div>
 
@@ -117,6 +127,7 @@
   </div>
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
+    <script src="assets/waypoints/waypoints.js"></script>
   </body>
 </html>
