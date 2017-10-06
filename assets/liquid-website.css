@@ -1,10 +1,6 @@
 .Desktop-product-image-block {
   position: fixed;
   left: 50%;
-
-  width: 200px;
-  height: 200px;
-  background-color: green;
 }
 
 .Main-title {
