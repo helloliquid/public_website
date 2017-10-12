@@ -20,7 +20,7 @@
     <!-- <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
 
     <!-- Custom styles for this template -->
-    <link href="assets/jumbotron-narrow.css" rel="stylesheet">
+    <!-- <link href="assets/jumbotron-narrow.css" rel="stylesheet"> -->
 
     <!-- Custom styles for this page -->
     <link href="assets/liquid-website.css" rel="stylesheet">
@@ -49,52 +49,49 @@
 <body>
 
     <div class="container">
-      <div class="header clearfix">
+      <div class="header header-logo">
 
-        <!-- <h3 class="text-muted">Project name</h3> -->
-        <img class="visible-sm-inline visible-md-inline visible-lg-inline" src="assets/img/Logo-desktop.png"></>
-        <img class="visible-xs-inline" src="assets/img/Logo-mobile.png"></>
+        <img class="hidden-md hidden-lg" src="assets/img/Logo-mobile.png"></>
+        <img class="hidden-xs hidden-sm header-logo-image" src="assets/img/Logo-desktop.png"></>
+
       </div>
 
       <div class="row marketing">
-
-        <div class="col-lg-6">
+        <div class="col-md-6">
 
           <h1 class="Main-title text-left">Up front banking designed for the real world</h1>
-          <p class="lead text-left">Other apps help you manage your money today so they can profit from your debt later.</p>
-          <p class="lead text-left">Liquid charges a clear subscription fee and only profits when you are happy with your money.</p>
-          <p class="lead text-left">Liquid is up front banking.</p>
+          <p class="text-left">Other apps help you manage your money today so they can profit from your debt later.</p>
+          <p class="text-left">Liquid charges a clear subscription fee and only profits when you are happy with your money.</p>
+          <p class="text-left">Liquid is <b>up front banking.</b></p>
+
 
           <div class="Mobile-image">
-          <img class="visible-xs-inline" src="assets/img/Mobile-img-1.png" class="img-responsive Product-image" ></>
+          <img class="hidden-md hidden-lg" src="assets/img/Mobile-img-1.png" class="img-responsive Product-image" ></>
           </div>
-
-
           <img src="assets/img/N1.png" class="img-responsive Number-icon" ></>
           <h4 id="waypoint1" class="waypoint">Stay connected to your cashflow</h4>
           <li>- Securely connects to your bank account.</li>
           <li>- Set up in 2 minutes.</li>
 
-          <img class="visible-xs-inline" src="assets/img/Mobile-img-2.png" class="img-responsive Product-image" ></>
-
+          <img class="hidden-md hidden-lg" src="assets/img/Mobile-img-2.png" class="img-responsive Product-image" ></>
           <img src="/Users/cesarisern/Documents/GitHub/pblic_website/assets/img/N2.png" class="img-responsive Number-icon" ></>
           <h4 id="waypoint2" class="waypoint">Automatically set aside money for taxes</h4>
           <li>- Detects payments over $50 as income for you</li>
           <li>- Sets aside a % of each payment over $50</li>
           <li>- Use that % for taxes or any lump sum payment</li>
 
-          <img class="visible-xs-inline" src="assets/img/Mobile-img-3.png" class="img-responsive Product-image" ></>
 
+          <img class="hidden-md hidden-lg" src="assets/img/Mobile-img-3.png" class="img-responsive Product-image" ></>
           <img src="/Users/cesarisern/Documents/GitHub/pblic_website/assets/img/N3.png" class="img-responsive Number-icon" ></>
           <h4>Save in as many accounts as you like with no hidden fees</h4>
           <li>- Customise accounts to plan for specific expenses</li>
           <li>- Save smarter for taxes, vacations or updating the tools you use for work</li>
 
         </div>
-        <div class="col-lg-6 Desktop-product-image-block">
-          <img id="Product-image-1" class="visible-sm-inline visible-md-inline visible-lg-inline" src="assets/img/Desktop-img-1.png" class="img-responsive Product-image" ></>
-          <img id="Product-image-2" class="visible-sm-inline visible-md-inline visible-lg-inline" src="assets/img/Desktop-img-2.png" class="img-responsive Product-image" ></>
-          <img id="Product-image-3" class="visible-sm-inline visible-md-inline visible-lg-inline" src="assets/img/Desktop-img-3.png" class="img-responsive Product-image" ></>
+        <div class="col-md-6 Desktop-product-image-block">
+          <img id="Product-image-1"  src="assets/img/Desktop-img-1.png" class="img-responsive Product-image" ></>
+          <img id="Product-image-2"  src="assets/img/Desktop-img-2.png" class="img-responsive Product-image" ></>
+          <img id="Product-image-3"  src="assets/img/Desktop-img-3.png" class="img-responsive Product-image" ></>
 
         </div>
       </div>
@@ -104,25 +101,26 @@
       </footer>
 
     </div> <!-- /container -->
-<div class="signup-footer">
-  <div class="signup-email-divider"></div>
+
+
+    <div class="footer signup-footer">
     <div class="container" >
+      <div class="row">
+        <div class="col-md-6">
+          <div class="footer-email">
+            <div class="input-group input-group-lg">
+              <input type="text" class="form-control signup-email-input" placeholder="Your email" aria-describedby="sizing-addon1">
+                <span class="input-group-btn border-0">
+                  <button class="btn btn-default signup-email-button" type="button">Sign up</button>
+                </span>
 
-      <div class="row footer-email">
-
-         <div class="col-lg-6 col-lg-offset-3">
-
-        <div class="input-group input-group-lg">
-          <input type="text" class="form-control signup-email-input" placeholder="Your email" aria-describedby="sizing-addon1">
-          <span class="input-group-btn border-0">
-            <button class="btn btn-default signup-email-button" type="button">Sign up</button>
-          </span>
-        </div>
           </div>
       </div>
     </div>
+    </div>
+    </div>
   </div>
-
+</div>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
     <script src="assets/waypoints/waypoints.js"></script>
