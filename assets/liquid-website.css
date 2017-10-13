@@ -8,8 +8,17 @@
 
 .Desktop-product-image-block {
   position: fixed;
+  vertical-align: middle;
+  visibility: hidden;
+  display: none;
   left: 50%;
   z-index: 3;
+
+}
+
+.Image-loader {
+  visibility: hidden;
+  display: none;
 }
 
 .col-md-6 h1 {
@@ -44,10 +53,6 @@
 
 .Number-icon {
   padding-top: 40px;
-}
-
-.Product-image {
-  padding-top: 30px;
 }
 
 .content-footer {
