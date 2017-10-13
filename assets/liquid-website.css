@@ -4,6 +4,7 @@
 
 .Mobile-image {
   width: 100%;
+  margin-top: 40px;
 }
 
 .Desktop-product-image-block {
@@ -114,6 +115,10 @@
   z-index: 2;
 }
 
-.header-logo-image {
+.header-image-Mobile {
+  margin-top: 30px;
+}
+
+.header-image-Desktop {
   margin-top: 20px;
 }
