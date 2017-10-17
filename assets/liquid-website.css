@@ -78,6 +78,7 @@
 }
 
 .form-control.signup-email-input, .form-control.signup-email-input:focus  {
+  display: table-cell;
   background-color: #EDEAEA;
   color: #A9A9A9;
   border: none;
