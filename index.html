@@ -15,7 +15,8 @@
   <!-- Bootstrap core CSS and jQuery -->
   <link href="assets/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="assets/jquery/jquery-3.2.1.min.js"></script>
-  <script src="assets/alignement.js"></script>
+<script src="assets/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  <script src="assets/index.js"></script>
 
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <!-- <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
@@ -138,15 +139,11 @@
       <div class="row">
         <div class="col-md-6">
           <div class="footer-email">
-
-            <form action="https://helloliquid.us17.list-manage.com/subscribe/post?u=9d253e3ebf1bc0e2332e08877&amp;id=09c629ff4c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="input-group input-group-lg validate" target="_blank"
-              novalidate>
-
-              <input type="email" name="EMAIL" class="required email form-control signup-email-input" placeholder="Your email" aria-describedby="sizing-addon1" id="mce-EMAIL">
+            <form action="javascript;" id="signup-form" class="input-group input-group-lg" novalidate data-toggle="tooltip">
+              <input type="email" name="EMAIL" class="required email form-control signup-email-input" placeholder="Your email" aria-describedby="sizing-addon1" id="signup-form-email">
               <span class="input-group-btn border-0">
-                  <input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-default signup-email-button">
-                </span>
-
+                <input type="submit" value="Sign up" name="subscribe" id="signup-form-submit" class="button btn btn-default signup-email-button">
+              </span>
             </form>
           </div>
         </div>
