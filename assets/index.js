@@ -30,7 +30,7 @@ $(window).ready(function() {
       dataType: 'json',
       type: 'POST',
       success: function(data) {
-        window.location.href('https://app.helloliquid.com/signup/success');
+        window.location = 'https://app.helloliquid.com/signup/success';
       },
       error: function(data) {
         var errors,
