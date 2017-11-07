@@ -19,7 +19,18 @@ $(window).ready(function() {
   $('form#signup-form').on('submit', function(evt) {
     evt.preventDefault();
     evt.stopPropagation();
-    var $form = $(this);
+    var $form = $(this),
+        email = $form.find('#signup-form-email').val();
+
+    // track mixpanel event
+    mixpanel.track('Input signup email');
+
+    // set super properties
+    var d = new Date();
+    mixpanel.register({
+      "Last Input signup email": d.toISOString(),
+      "email": email,
+    });
 
     $.ajax({
       url: 'https://api.helloliquid.com/users',
@@ -30,6 +41,9 @@ $(window).ready(function() {
       dataType: 'json',
       type: 'POST',
       success: function(data) {
+        var dd = new Date();
+        mixpanel.alias(email);
+        mixpanel.people.set({ "$email": email, "$created": dd.toISOString() });
         window.location = 'https://app.helloliquid.com/signup/success';
       },
       error: function(data) {
