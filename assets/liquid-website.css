@@ -76,6 +76,13 @@
   list-style-type: none;
 }
 
+.bullet-point {
+  overflow: auto;
+}
+.bullet-point img {
+  margin-bottom: 20px;
+}
+
 .Number-icon {
   padding-top: 0px;
   float: left;
