@@ -1,3 +1,14 @@
+#Liquidbackground {
+  background: url("img/Background.png");
+  background-repeat: no-repeat;
+  background-position: 420px 0px;
+
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+}
+
 .container {
   max-width: 930px;
 }
@@ -13,13 +24,17 @@
   visibility: hidden;
   display: none;
   left: 50%;
-  z-index: 3;
+  z-index: 4;
 }
 
 .Image-loader {
   visibility: hidden;
   display: none;
 }
+
+/*.col-md-6 {
+  z-index: 5;
+}*/
 
 .col-md-6 h1 {
   font-size: 48px;
@@ -37,11 +52,12 @@
 }
 
 .col-md-6 h4 {
-  font-size: 38px;
+  font-size: 30px;
   font-weight: bold;
   color: #003354;
   letter-spacing: -1.5px;
   font-kerning: normal;
+  padding-left: 82px;
 }
 
 .col-md-6 li {
@@ -51,8 +67,18 @@
   list-style-type: none;
 }
 
+.col-md-6 a {
+  font-size: 18px;
+  font-weight: 300;
+  text-decoration: underline;
+  color: #003354;
+  list-style-type: none;
+}
+
 .Number-icon {
-  padding-top: 40px;
+  padding-top: 0px;
+  float: left;
+  padding-right: 10px;
 }
 
 .content-footer {
@@ -68,6 +94,7 @@
   height: 80px;
   bottom: 0;
   border: none;
+  z-index: 5;
 }
 
 .footer-email {
