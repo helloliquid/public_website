@@ -16,6 +16,7 @@
 .Mobile-image {
   width: 100%;
   margin-top: 40px;
+  margin-bottom: 50px;
 }
 
 .Desktop-product-image-block {
@@ -41,7 +42,7 @@
   line-height: 46px;
   font-weight: 900;
   color: #003354;
-  margin-top: 150px;
+  margin-top: 120px;
   margin-bottom: 40px;
 }
 
