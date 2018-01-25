@@ -1,5 +1,5 @@
 #Liquidbackground {
-  background: url("img/Background.png");
+  background: url("img/Background.svg");
   background-repeat: no-repeat;
   background-position: 420px 0px;
 
@@ -11,6 +11,11 @@
 
 .container {
   max-width: 930px;
+}
+
+#Product-image-1 {
+  padding-top: 56px !important;
+  max-height: 900px;
 }
 
 .Mobile-image {
@@ -33,9 +38,6 @@
   display: none;
 }
 
-/*.col-md-6 {
-  z-index: 5;
-}*/
 .main-content {
   z-index: 4;
 }
@@ -87,7 +89,7 @@
 }
 
 .Number-icon {
-  padding-top: 0px;
+  padding-top: 10px;
   float: left;
   padding-right: 10px;
 }
@@ -154,6 +156,9 @@
 .header .col-md-4 {
   background-color: white;
   z-index: 5;
+  width: 500px;
+  padding-left: 3px !important;
+  padding-bottom: 20px;
 }
 
 .header-image-Mobile {
