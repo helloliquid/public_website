@@ -1,3 +1,7 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 #Liquidbackground {
   background: url("img/Background.svg");
   background-repeat: no-repeat;
@@ -43,12 +47,28 @@
 }
 
 .col-md-6 h1 {
+  margin-top: 120px;
+}
+
+.col-md-6 h1 p{
   font-size: 48px;
   line-height: 46px;
-  font-weight: 900;
-  color: #003354;
-  margin-top: 120px;
-  margin-bottom: 40px;
+  font-weight: 700;
+  color: #000C34;
+  margin-bottom: 20px;
+}
+
+.col-md-6 h2 {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 300;
+  color: #000C34;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.adaptMargin {
+  /*margin-top: 50px;*/
 }
 
 .col-md-6 p {
@@ -58,11 +78,12 @@
 }
 
 .col-md-6 h4 {
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: 300;
   color: #003354;
-  letter-spacing: -1.5px;
+
   font-kerning: normal;
+  /*padding-top: 10px;*/
   padding-left: 82px;
 }
 
@@ -83,6 +104,7 @@
 
 .bullet-point {
   overflow: auto;
+  display: list-item;
 }
 .bullet-point img {
   margin-bottom: 20px;
@@ -157,7 +179,7 @@
   background-color: white;
   z-index: 5;
   width: 500px;
-  padding-left: 3px !important;
+  padding-left: 0px !important;
   padding-bottom: 20px;
 }
 

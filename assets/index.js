@@ -5,13 +5,15 @@ $( window ).ready(function() {
   $( '#Product-image-1' ).css( "padding-top", ((window.innerHeight-689)/2)+"px" );
   $( '.Desktop-product-image-block' ).css( "visibility", "visible" );
   $( '.Desktop-product-image-block' ).css( "display", "inline" );
-  $( '.content-footer' ).css( "margin-top", (window.innerHeight-526)+"px" );
+  $( '.adaptMargin' ).css( "margin-top", (window.innerHeight-690)+"px");
+  // $( '.content-footer' ).css( "margin-top", (window.innerHeight-526)+"px" );
 });
 
 $( window ).resize(function() {
   console.log(window.innerHeight);
   $( '#Product-image-1' ).css( "padding-top", ((window.innerHeight-689)/2)+"px" );
   $( '.content-footer' ).css( "margin-top", (window.innerHeight-526)+"px" );
+  $( '.adaptMargin' ).css( "margin-top", (window.innerHeight-680)+"px");
 });
 
 // Signup Form
