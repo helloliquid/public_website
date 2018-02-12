@@ -1,5 +1,70 @@
+/*-- Set-up loading animation -- */
+.header-logo{
+    opacity: 0;
+    animation-name: Loading-animation;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+.Main-title :first-child {
+  opacity: 0;
+  animation-name: Loading-animation;
+  animation-duration: 500ms;
+  animation-delay: 250ms;
+  animation-fill-mode: forwards;
+}
+.Main-title :nth-child(2) {
+  opacity: 0;
+  animation-name: Loading-animation;
+  animation-duration: 500ms;
+  animation-delay: 2000ms;
+  animation-fill-mode: forwards;
+}
+
+#Liquidbackground {
+  opacity: 0;
+  animation-name: Loading-animation;
+  animation-duration: 2500ms;
+  animation-delay: 4000ms;
+  animation-fill-mode: forwards;
+}
+.Desktop-product-image-block {
+  opacity: 0;
+  animation-name: Loading-animation;
+  animation-duration: 2000ms;
+  animation-delay: 3000ms;
+  animation-fill-mode: forwards;
+}
+#Text-content {
+  opacity: 0;
+  animation-name: Loading-animation;
+  animation-duration: 1000ms;
+  animation-delay: 4000ms;
+  animation-fill-mode: forwards;
+}
+.content-footer {
+  opacity: 0;
+  animation-name: Loading-animation;
+  animation-duration: 1000ms;
+  animation-delay: 4000ms;
+  animation-fill-mode: forwards;
+}
+
+/*-- Loading animaiton -- */
+@keyframes Loading-animation {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+/*-- General CSS --*/
+
 body {
   font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 930px;
 }
 
 #Liquidbackground {
@@ -11,10 +76,6 @@ body {
   height: 100%;
   width: 100%;
   z-index: 3;
-}
-
-.container {
-  max-width: 930px;
 }
 
 #Product-image-1 {
@@ -68,7 +129,7 @@ body {
 }
 
 .adaptMargin {
-  /*margin-top: 50px;*/
+  /*margin-top: 70px;*/
 }
 
 .col-md-6 p {
