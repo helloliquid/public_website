@@ -5,7 +5,12 @@ $( window ).ready(function() {
   $( '#Product-image-1' ).css( "padding-top", ((window.innerHeight-689)/2)+"px" );
   $( '.Desktop-product-image-block' ).css( "visibility", "visible" );
   $( '.Desktop-product-image-block' ).css( "display", "inline" );
-  $( '.adaptMargin' ).css( "margin-top", (window.innerHeight-690)+"px");
+  if (window.innerHeight > 649) {
+    $( '.adaptMargin' ).css( "margin-top", (window.innerHeight-690)+"px");
+  } else {
+    $( '.col-md-6 h1' ).css( "margin-top", "90px");
+    $( '.adaptMargin' ).css( "margin-top", "0px");
+  }
   // $( '.content-footer' ).css( "margin-top", (window.innerHeight-526)+"px" );
 });
 
@@ -13,7 +18,14 @@ $( window ).resize(function() {
   console.log(window.innerHeight);
   $( '#Product-image-1' ).css( "padding-top", ((window.innerHeight-689)/2)+"px" );
   $( '.content-footer' ).css( "margin-top", (window.innerHeight-526)+"px" );
-  $( '.adaptMargin' ).css( "margin-top", (window.innerHeight-680)+"px");
+  $( '.adaptMargin' ).css( "margin-top", (window.innerHeight-690)+"px");
+  if (window.innerHeight > 649) {
+    $( '.col-md-6 h1' ).css( "margin-top", "120px");
+    $( '.adaptMargin' ).css( "margin-top", (window.innerHeight-690)+"px");
+  } else {
+    $( '.col-md-6 h1' ).css( "margin-top", "90px");
+    $( '.adaptMargin' ).css( "margin-top", "0px");
+  }
 });
 
 // Signup Form
